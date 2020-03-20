@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SoftRender.cpp" />
+    <ClCompile Include="Mery.cpp">
+      <Filter>Obj\02_TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureUpdater.cpp">
+      <Filter>Updater\04_Adventure</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingUpdater.cpp">
+      <Filter>Updater\10_Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectUpdater.cpp">
+      <Filter>Updater\03_Select</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingUpdater.cpp">
+      <Filter>Updater\01_Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUpdater.cpp">
+      <Filter>Updater\02_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TestUpdater.cpp">
+      <Filter>Updater\99_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Goopy.cpp">
+      <Filter>Obj\04_Adventure</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeTrialUpdater.cpp">
+      <Filter>Updater\05_TimeTrial</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMapUpdater.cpp">
+      <Filter>Updater\03_Select</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Obj\__Base__\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Obj\__Base__\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Obj\__Base__\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Obj\__Base__\Object\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Amp.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Angie.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Blip.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Clyde.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Gash.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumbo.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Itchy.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Meryl.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Nimbus.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Nostradamus.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Prego.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Presto.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Seymour.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Shrapnel.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Stanley.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Vert.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Wadsworth.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Walter.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Zorf.cpp">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>Obj\04_Adventure\Pet\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Stinky.cpp">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClCompile>
+    <ClCompile Include="Rufus.cpp">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhubarb.cpp">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClCompile>
+    <ClCompile Include="Niko.cpp">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClCompile>
+    <ClCompile Include="Brinkley.cpp">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>Obj\04_Adventure\Food</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SoftRender.h" />
+    <ClInclude Include="Mery.h">
+      <Filter>Obj\02_TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureUpdater.h">
+      <Filter>Updater\04_Adventure</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingUpdater.h">
+      <Filter>Updater\10_Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectUpdater.h">
+      <Filter>Updater\03_Select</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingUpdater.h">
+      <Filter>Updater\01_Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUpdater.h">
+      <Filter>Updater\02_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TestUpdater.h">
+      <Filter>Updater\99_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Goopy.h">
+      <Filter>Obj\04_Adventure</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeTrialUpdater.h">
+      <Filter>Updater\05_TimeTrial</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMapUpdater.h">
+      <Filter>Updater\03_Select</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Obj\__Base__\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Obj\__Base__\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Obj\__Base__\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Obj\__Base__\Object\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Amp.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Angie.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Blip.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Clyde.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Gash.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumbo.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Itchy.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Meryl.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Nimbus.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Nostradamus.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Prego.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Presto.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Seymour.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Shrapnel.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Stanley.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Vert.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Wadsworth.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Walter.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Zorf.h">
+      <Filter>Obj\04_Adventure\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>Obj\04_Adventure\Pet\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Stinky.h">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClInclude>
+    <ClInclude Include="Rufus.h">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhubarb.h">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClInclude>
+    <ClInclude Include="Niko.h">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClInclude>
+    <ClInclude Include="Brinkley.h">
+      <Filter>Obj\04_Adventure\Pet\ShellFish</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>Obj\04_Adventure\Food</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Updater">
+      <UniqueIdentifier>{f5e68ec5-50f0-4879-be4b-4ef0e08aae51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj">
+      <UniqueIdentifier>{d540c148-30d2-4bb6-bbb7-9b17f5e20cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\01_Loading">
+      <UniqueIdentifier>{a3bd3733-852a-4b72-b6bc-e0a12172b849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\02_Title">
+      <UniqueIdentifier>{7524f819-06b7-4613-a65a-5229437d90d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\03_Select">
+      <UniqueIdentifier>{fd5fa059-dcf9-4c0b-80fe-aab7c79a558e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\04_Adventure">
+      <UniqueIdentifier>{4d6a104d-753a-4d28-9687-a64caf515a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\05_TimeTrial">
+      <UniqueIdentifier>{0aa7da60-c807-411b-8832-af43f92898e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\06_Challenge">
+      <UniqueIdentifier>{de8beaf6-ecf0-4d13-9468-0bebcfcd0590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\07_VirtualTank">
+      <UniqueIdentifier>{8f44dd15-27c0-4c45-a1a8-9e7320a3ff51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\08_HallOfFame">
+      <UniqueIdentifier>{088917e8-27bf-4c7f-bfd3-66fb2c831f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\09_Help">
+      <UniqueIdentifier>{df12dde6-6a89-429e-a1fb-0bacd76aa467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\10_Ending">
+      <UniqueIdentifier>{07aec582-1ae6-40cf-9546-503d352d4c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\99_Test">
+      <UniqueIdentifier>{27a4a661-a21d-475c-8fc8-29578646167a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\ENUM">
+      <UniqueIdentifier>{10aad692-b6de-492c-8456-34b0571b0047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\03_SelectScene">
+      <UniqueIdentifier>{d9c5841e-b599-4f89-b13e-59501051195c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\02_TitleScene">
+      <UniqueIdentifier>{7578ea2b-2670-4c28-89ca-84d2c40e0e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\04_Adventure">
+      <UniqueIdentifier>{350c4134-1867-4a5b-90af-92322d755edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\__Base__">
+      <UniqueIdentifier>{4037b980-830d-46da-90ff-a953b2e33405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\__Base__\UI">
+      <UniqueIdentifier>{c3296f70-acb5-4e5c-87aa-a4829c8cd876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\__Base__\UI\Sub">
+      <UniqueIdentifier>{6b466d7b-71d3-4668-8be6-c12e6877a951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\__Base__\IO">
+      <UniqueIdentifier>{b1ed0b6b-7372-4c75-9545-654d81e254ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\__Base__\Object">
+      <UniqueIdentifier>{d87f92f1-1ac1-4477-b007-b3e35bd4e874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\__Base__\Object\Sub">
+      <UniqueIdentifier>{359a4eb2-9812-4e79-8e3c-a0233124d42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\04_Adventure\Pet">
+      <UniqueIdentifier>{886dcd86-8674-42e9-80a9-af38b558c3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\04_Adventure\Pet\Base">
+      <UniqueIdentifier>{eff85f7b-051a-414a-a823-197621f6ce5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\04_Adventure\Pet\ShellFish">
+      <UniqueIdentifier>{e57a6ea5-9ddd-48ea-b28c-3627c6caf12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\04_Adventure\Food">
+      <UniqueIdentifier>{d6e72f85-588c-4528-90ce-8784024acadc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
