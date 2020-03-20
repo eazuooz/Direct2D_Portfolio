@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{1c887859-d217-481d-bf99-4ca7629007db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\02_TitleScene">
+      <UniqueIdentifier>{cdcf7da8-cc87-4ab0-b70a-6a977e734113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene">
+      <UniqueIdentifier>{5cdb81a7-765b-4e71-9f8f-0ada890da729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\99_Test">
+      <UniqueIdentifier>{2d1368c4-8471-4a81-aa49-fa4bf3070901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{60242e7c-4701-4d4d-975f-7321f37e4106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene\Pet">
+      <UniqueIdentifier>{a4950ddf-6f35-46f2-ab5e-d8a746d11fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene\Food">
+      <UniqueIdentifier>{84400df7-256f-43a0-bcf0-94c42f34b286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{9a22c8b0-f06c-459d-87b8-f87e548b725b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene\Bubble">
+      <UniqueIdentifier>{ad381e7c-55c8-42ce-b578-406cb49be9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\List">
+      <UniqueIdentifier>{816689f8-fb1a-4baa-89e3-ae2e17f14a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene\Coin">
+      <UniqueIdentifier>{195101a6-3a6a-48e7-b1f4-fbdaace3dbfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene\Monster">
+      <UniqueIdentifier>{04028833-1c86-4747-9d9d-7d90b9087743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene\Pet\Sub">
+      <UniqueIdentifier>{c6f8e6a1-3a41-4bd0-aa2d-8d4d61693e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene\Pet\FishMove">
+      <UniqueIdentifier>{01ca276d-57a2-49bf-a9bf-853b2584610a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\04_AdventureScene\Item">
+      <UniqueIdentifier>{9a009032-c065-4020-b860-9e4f8123091a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\10_EndingScene">
+      <UniqueIdentifier>{e37d0f8c-58c5-4a52-8b47-f38079171c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\01_LoadingScene">
+      <UniqueIdentifier>{0cc69ed6-5f3b-41fd-947b-2d62719a4b8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogicHeader.h" />
+    <ClInclude Include="MeryEyeLogic.h">
+      <Filter>Logic\02_TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MeryTailLogic.h">
+      <Filter>Logic\02_TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FishMove.h">
+      <Filter>Logic\04_AdventureScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLogic.h">
+      <Filter>Logic\99_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="GoopyAnimation.h">
+      <Filter>Logic\04_AdventureScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="PetFishMove.h">
+      <Filter>Logic\04_AdventureScene\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellPetMove.h">
+      <Filter>Logic\04_AdventureScene\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodMove.h">
+      <Filter>Logic\04_AdventureScene\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="ENUM.h" />
+    <ClInclude Include="DataManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleMove.h">
+      <Filter>Logic\04_AdventureScene\Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="StartBubbleMove.h">
+      <Filter>Logic\04_AdventureScene\Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="GoopyList.h">
+      <Filter>Logic\List</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodList.h">
+      <Filter>Logic\List</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateCoin.h">
+      <Filter>Logic\04_AdventureScene\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinMove.h">
+      <Filter>Logic\04_AdventureScene\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinBox.h">
+      <Filter>Logic\04_AdventureScene\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="StinkyMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterList.h">
+      <Filter>Logic\List</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinList.h">
+      <Filter>Logic\List</Filter>
+    </ClInclude>
+    <ClInclude Include="NikoMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="ItchyMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="FishLogic.h">
+      <Filter>Logic\04_AdventureScene\Pet\FishMove</Filter>
+    </ClInclude>
+    <ClInclude Include="ZorfMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="PregoMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="ClydeMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="MerylMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicTest.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteMove.h">
+      <Filter>Logic\04_AdventureScene\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMove.h">
+      <Filter>Logic\04_AdventureScene\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="SeymourMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="ShrapnelMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GumboMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditMove.h">
+      <Filter>Logic\10_EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndAngieMove.h">
+      <Filter>Logic\10_EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PetList.h">
+      <Filter>Logic\List</Filter>
+    </ClInclude>
+    <ClInclude Include="WadsworthMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="DentacleMove.h">
+      <Filter>Logic\04_AdventureScene\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMove.h">
+      <Filter>Logic\04_AdventureScene\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GusMove.h">
+      <Filter>Logic\04_AdventureScene\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingStinkyMove.h">
+      <Filter>Logic\01_LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="RhubarbMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="NimbusMove.h" />
+    <ClInclude Include="AmpMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="AngieMove.h">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="WalterMove.h" />
+    <ClInclude Include="StanleyMove.h" />
+    <ClInclude Include="BallMove.h">
+      <Filter>Logic\04_AdventureScene\Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MeryEyeLogic.cpp">
+      <Filter>Logic\02_TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MeryTailLogic.cpp">
+      <Filter>Logic\02_TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FishMove.cpp">
+      <Filter>Logic\04_AdventureScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLogic.cpp">
+      <Filter>Logic\99_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="GoopyAnimation.cpp">
+      <Filter>Logic\04_AdventureScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicHeader.cpp" />
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PetFishMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellPetMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodMove.cpp">
+      <Filter>Logic\04_AdventureScene\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleMove.cpp">
+      <Filter>Logic\04_AdventureScene\Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="StartBubbleMove.cpp">
+      <Filter>Logic\04_AdventureScene\Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="GoopyList.cpp">
+      <Filter>Logic\List</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodList.cpp">
+      <Filter>Logic\List</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateCoin.cpp">
+      <Filter>Logic\04_AdventureScene\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinMove.cpp">
+      <Filter>Logic\04_AdventureScene\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinBox.cpp">
+      <Filter>Logic\04_AdventureScene\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="StinkyMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterList.cpp">
+      <Filter>Logic\List</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinList.cpp">
+      <Filter>Logic\List</Filter>
+    </ClCompile>
+    <ClCompile Include="NikoMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="ItchyMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="FishLogic.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\FishMove</Filter>
+    </ClCompile>
+    <ClCompile Include="ZorfMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="PregoMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="ClydeMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="MerylMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicTest.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteMove.cpp">
+      <Filter>Logic\04_AdventureScene\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMove.cpp">
+      <Filter>Logic\04_AdventureScene\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="SeymourMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="ShrapnelMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GumboMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditMove.cpp">
+      <Filter>Logic\10_EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndAngieMove.cpp">
+      <Filter>Logic\10_EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PetList.cpp">
+      <Filter>Logic\List</Filter>
+    </ClCompile>
+    <ClCompile Include="WadsworthMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="DentacleMove.cpp">
+      <Filter>Logic\04_AdventureScene\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMove.cpp">
+      <Filter>Logic\04_AdventureScene\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GusMove.cpp">
+      <Filter>Logic\04_AdventureScene\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingStinkyMove.cpp">
+      <Filter>Logic\01_LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RhubarbMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="NimbusMove.cpp" />
+    <ClCompile Include="AmpMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="AngieMove.cpp">
+      <Filter>Logic\04_AdventureScene\Pet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="WalterMove.cpp" />
+    <ClCompile Include="StanleyMove.cpp" />
+    <ClCompile Include="BallMove.cpp">
+      <Filter>Logic\04_AdventureScene\Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LOGIC.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

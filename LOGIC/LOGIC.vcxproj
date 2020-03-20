@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{4B84BF8E-5A07-444D-844B-606672C30A6E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LOGIC</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\_BIN\X64\</OutDir>
+    <TargetName>$(ProjectName)D64</TargetName>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetExt>.lib</TargetExt>
+    <ExtensionsToDeleteOnClean>*.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi</ExtensionsToDeleteOnClean>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <IncludePath>..\ENGINE;..\_BASE;$(VC_IncludePath);$(WindowsSDK_IncludePath);..\TPARTY\HEADER\;</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;..\TPARTY\X64\;..\_BIN\;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\_BIN\X32\</OutDir>
+    <TargetName>$(ProjectName)D32</TargetName>
+    <IncludePath>..\ENGINE;..\_BASE;$(VC_IncludePath);$(WindowsSDK_IncludePath);..\TPARTY\HEADER\;</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;..\TPARTY\X32\;..\_BIN\;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\_BIN\X32\</OutDir>
+    <TargetName>$(ProjectName)R32</TargetName>
+    <IncludePath>..\ENGINE;..\_BASE;$(VC_IncludePath);$(WindowsSDK_IncludePath);..\TPARTY\HEADER\;</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;..\TPARTY\X32\;..\_BIN\;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\_BIN\X64\</OutDir>
+    <TargetName>$(ProjectName)R64</TargetName>
+    <IncludePath>..\ENGINE;..\_BASE;$(VC_IncludePath);$(WindowsSDK_IncludePath);..\TPARTY\HEADER\;</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;..\TPARTY\X64\;..\_BIN\;</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions);X64;DEBUGMODE;</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <IncludeInUnityFile>true</IncludeInUnityFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);X32;DEBUGMODE;</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <IncludeInUnityFile>true</IncludeInUnityFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);X32;RELEASEMODE;</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <IncludeInUnityFile>true</IncludeInUnityFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions);X64;RELEASEMODE;</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <IncludeInUnityFile>true</IncludeInUnityFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AmpMove.h" />
+    <ClInclude Include="AngieMove.h" />
+    <ClInclude Include="BallMove.h" />
+    <ClInclude Include="BossMove.h" />
+    <ClInclude Include="BubbleMove.h" />
+    <ClInclude Include="ClydeMove.h" />
+    <ClInclude Include="CoinBox.h" />
+    <ClInclude Include="CoinList.h" />
+    <ClInclude Include="CoinMove.h" />
+    <ClInclude Include="CreateCoin.h" />
+    <ClInclude Include="CreditMove.h" />
+    <ClInclude Include="DataManager.h" />
+    <ClInclude Include="DentacleMove.h" />
+    <ClInclude Include="EndAngieMove.h" />
+    <ClInclude Include="ENUM.h" />
+    <ClInclude Include="FishLogic.h" />
+    <ClInclude Include="FishMove.h" />
+    <ClInclude Include="FoodList.h" />
+    <ClInclude Include="FoodMove.h" />
+    <ClInclude Include="GoopyAnimation.h" />
+    <ClInclude Include="GoopyList.h" />
+    <ClInclude Include="GumboMove.h" />
+    <ClInclude Include="GusMove.h" />
+    <ClInclude Include="ItchyMove.h" />
+    <ClInclude Include="LoadingStinkyMove.h" />
+    <ClInclude Include="LogicHeader.h" />
+    <ClInclude Include="LogicTest.h" />
+    <ClInclude Include="MeryEyeLogic.h" />
+    <ClInclude Include="MerylMove.h" />
+    <ClInclude Include="MeryTailLogic.h" />
+    <ClInclude Include="MonsterList.h" />
+    <ClInclude Include="MonsterMove.h" />
+    <ClInclude Include="MoveLogic.h" />
+    <ClInclude Include="NikoMove.h" />
+    <ClInclude Include="NimbusMove.h" />
+    <ClInclude Include="NoteMove.h" />
+    <ClInclude Include="PetFishMove.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="PetList.h" />
+    <ClInclude Include="PregoMove.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RhubarbMove.h" />
+    <ClInclude Include="SeymourMove.h" />
+    <ClInclude Include="ShellPetMove.h" />
+    <ClInclude Include="ShrapnelMove.h" />
+    <ClInclude Include="StanleyMove.h" />
+    <ClInclude Include="StartBubbleMove.h" />
+    <ClInclude Include="StinkyMove.h" />
+    <ClInclude Include="TileMap.h" />
+    <ClInclude Include="WadsworthMove.h" />
+    <ClInclude Include="WalterMove.h" />
+    <ClInclude Include="ZorfMove.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AmpMove.cpp" />
+    <ClCompile Include="AngieMove.cpp" />
+    <ClCompile Include="BallMove.cpp" />
+    <ClCompile Include="BossMove.cpp" />
+    <ClCompile Include="BubbleMove.cpp" />
+    <ClCompile Include="ClydeMove.cpp" />
+    <ClCompile Include="CoinBox.cpp" />
+    <ClCompile Include="CoinList.cpp" />
+    <ClCompile Include="CoinMove.cpp" />
+    <ClCompile Include="CreateCoin.cpp" />
+    <ClCompile Include="CreditMove.cpp" />
+    <ClCompile Include="DataManager.cpp" />
+    <ClCompile Include="DentacleMove.cpp" />
+    <ClCompile Include="EndAngieMove.cpp" />
+    <ClCompile Include="FishLogic.cpp" />
+    <ClCompile Include="FishMove.cpp" />
+    <ClCompile Include="FoodList.cpp" />
+    <ClCompile Include="FoodMove.cpp" />
+    <ClCompile Include="GoopyAnimation.cpp" />
+    <ClCompile Include="GoopyList.cpp" />
+    <ClCompile Include="GumboMove.cpp" />
+    <ClCompile Include="GusMove.cpp" />
+    <ClCompile Include="ItchyMove.cpp" />
+    <ClCompile Include="LoadingStinkyMove.cpp" />
+    <ClCompile Include="LogicHeader.cpp" />
+    <ClCompile Include="LogicTest.cpp" />
+    <ClCompile Include="MeryEyeLogic.cpp" />
+    <ClCompile Include="MerylMove.cpp" />
+    <ClCompile Include="MeryTailLogic.cpp" />
+    <ClCompile Include="MonsterList.cpp" />
+    <ClCompile Include="MonsterMove.cpp" />
+    <ClCompile Include="MoveLogic.cpp" />
+    <ClCompile Include="NikoMove.cpp" />
+    <ClCompile Include="NimbusMove.cpp" />
+    <ClCompile Include="NoteMove.cpp" />
+    <ClCompile Include="PetFishMove.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="PetList.cpp" />
+    <ClCompile Include="PregoMove.cpp" />
+    <ClCompile Include="RhubarbMove.cpp" />
+    <ClCompile Include="SeymourMove.cpp" />
+    <ClCompile Include="ShellPetMove.cpp" />
+    <ClCompile Include="ShrapnelMove.cpp" />
+    <ClCompile Include="StanleyMove.cpp" />
+    <ClCompile Include="StartBubbleMove.cpp" />
+    <ClCompile Include="StinkyMove.cpp" />
+    <ClCompile Include="TileMap.cpp" />
+    <ClCompile Include="WadsworthMove.cpp" />
+    <ClCompile Include="WalterMove.cpp" />
+    <ClCompile Include="ZorfMove.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LOGIC.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
