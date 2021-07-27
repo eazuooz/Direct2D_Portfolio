@@ -4,10 +4,10 @@
 
 릴리즈 버전 테스트 영상 : https://www.youtube.com/watch?v=9pA_mgLUzec
 
-1. 사용언어 : C++
-2. 설명 : DirectX 11와 Win32 Api 사용한 자체 엔진 제작 및 광란의 수족관 게임 모작(Copy)
-3. 환경 : Windows10(SDK ver: 10.0.17763.0)
-4. 3rd party library list
-    - DirectXTex : 이미지 처리
-    - FMOD : 소리 처리
-    - FW1FontWrapper : 폰트 출력
+![img](https://github.com/MYOMYO3/Images/blob/991583130d202a13926a4ba942fbeaa0b4fda936/28.PNG.PNG?raw=true)
+![img](https://github.com/MYOMYO3/Images/blob/991583130d202a13926a4ba942fbeaa0b4fda936/29.PNG.PNG?raw=true)
+![img](https://github.com/MYOMYO3/Images/blob/991583130d202a13926a4ba942fbeaa0b4fda936/30.PNG.PNG?raw=true)
+![img](https://github.com/MYOMYO3/Images/blob/991583130d202a13926a4ba942fbeaa0b4fda936/31.PNG.PNG?raw=true)
+![img](https://github.com/MYOMYO3/Images/blob/991583130d202a13926a4ba942fbeaa0b4fda936/32.PNG.PNG?raw=true)
+![img](https://github.com/MYOMYO3/Images/blob/991583130d202a13926a4ba942fbeaa0b4fda936/33.PNG.PNG?raw=true)
+![img](https://github.com/MYOMYO3/Images/blob/991583130d202a13926a4ba942fbeaa0b4fda936/34.PNG.PNG?raw=true)
